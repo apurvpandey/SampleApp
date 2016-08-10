@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+    <string name="title_signup">Sign Up</string>
+    <string name="hint_email">name@mail.com</string>
+    <string name="error_edittext_username">UserName should not be empty</string>
+    <string name="error_edittext_email">Enter Valid Email address</string>
+    <string name="error_edittext_password">Password should not be empty</string>
+    <string name="hint_confirm_password">re-enter password</string>
+
+    <!--Dialog-->
+    <string name="dialog_label_alert_ok">OK</string>
+    <string name="dialog_label_alert_cancel">CANCEL</string>
+    <string name="dialog_label_alert_neutral">NEUTRAL</string>
+    <string name="dialog_title_error">ERROR</string>
+    <string name="dialog_message_please_wait">Please wait..."</string>
+</resources>

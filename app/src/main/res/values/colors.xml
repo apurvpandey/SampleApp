@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#987269</color>
+    <color name="colorPrimaryDark">#9f6768</color>
+    <color name="colorAccent">#623f45</color>
+    <color name="color_button_product_add">#00CAB4</color>
+    <color name="white">#ffffff</color>
+
+    <color name="light_grey">#9B9597</color>
+    <color name="fb_login_button">#3A5795</color>
+    <color name="google_login_button">#DC473A</color>
+    <color name="red">#C92225</color>
+
+</resources>

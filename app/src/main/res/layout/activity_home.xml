@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageview_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_weight="0.3"
+            android:clickable="true"
+            android:src="@drawable/record" />
+
+
+        <ImageView
+            android:id="@+id/imageview_stop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_weight="0.3"
+            android:clickable="true"
+            android:src="@drawable/stop" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Exit"
+
+        />
+
+</LinearLayout>
